@@ -5,10 +5,7 @@ def fak(N):
     return f
 
 
-def first_number(N):
+def squirrel(N):
     l = []
     l = list(str(fak(N)))
     return l[0]
-
-
-print(first_number(5))
