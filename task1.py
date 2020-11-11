@@ -8,4 +8,4 @@ def fak(N):
 def squirrel(N):
     l = []
     l = list(str(fak(N)))
-    return l[0]
+    return int(l[0])
